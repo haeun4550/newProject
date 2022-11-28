@@ -15,8 +15,4 @@ window.onload = function(){
    input_id = document.getElementById("id");
    input_pw = document.getElementById("pw");
     div= document.getElementById("loginForm");
-    
-    $("#id").on("change keyup paste", function(){
-	alert("change");
-})
 }
